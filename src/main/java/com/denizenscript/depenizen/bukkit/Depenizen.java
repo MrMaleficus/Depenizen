@@ -138,6 +138,7 @@ public class Depenizen extends JavaPlugin {
         registerBridge("MobArena", () -> new MobArenaBridge());
         registerBridge("MythicKeysPlugin", () -> new MythicKeysBridge());
         registerBridge("MythicMobs", () -> new MythicMobsBridge());
+        registerBridge("Nexo", () -> new NexoBridge());
         registerBridge("NoCheatPlus", () -> new NoCheatPlusBridge());
         registerBridge("NoteBlockAPI", () -> new NoteBlockAPIBridge());
         registerBridge("OpenTerrainGenerator", () -> new OpenTerrainGeneratorBridge());
